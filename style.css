@@ -48,5 +48,17 @@ h1{
 .btn{
     border: 1px solid white;
     padding: 10px 80px;
+    margin: 20px;
 
+}
+.btn:hover{
+    background: rgb(255,255,255);
+    color: black;
+}
+#pagina-home main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
